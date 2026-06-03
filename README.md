@@ -55,7 +55,8 @@
 
 ```
 .
-+-- boston_crime_analysis.ipynb   # Full EDA notebook (11 sections)
++-- boston_crime_analysis.ipynb   # EDA notebook (11 sections)
++-- ml_forecasting.ipynb          # ML notebook: SARIMA vs LightGBM + SHAP
 +-- dashboard.py                  # Streamlit + Folium interactive dashboard
 +-- requirements.txt              # Python dependencies
 +-- README.md
@@ -85,14 +86,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Run the Jupyter Notebook
+### Run the EDA Notebook
 
 ```bash
 jupyter lab boston_crime_analysis.ipynb
 ```
 
-Run all cells from top to bottom. The notebook is self-contained and produces
-all charts inline.
+### Run the ML Forecasting Notebook
+
+```bash
+jupyter lab ml_forecasting.ipynb
+```
+
+Both notebooks are self-contained and produce all charts inline.
 
 ### Run the Streamlit Dashboard
 
@@ -137,6 +143,10 @@ Open `http://localhost:8501` in your browser.
 | streamlit | >= 1.35 | Dashboard web framework |
 | streamlit-folium | >= 0.22 | Embed Folium map in Streamlit |
 | jupyterlab | >= 4.0 | Notebook runtime |
+| scikit-learn | >= 1.4 | Metrics, preprocessing |
+| lightgbm | >= 4.0 | Gradient boosting forecasting model |
+| statsmodels | >= 0.14 | SARIMA time series baseline |
+| shap | >= 0.45 | Model explainability |
 
 ---
 
