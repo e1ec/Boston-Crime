@@ -1,4 +1,4 @@
-# Boston Crime Analysis (2015 – 2026)
+# Boston Crime Analysis (2015 – 2025)
 
 > End-to-end analysis of Boston Police Department crime incident reports, covering
 > **884,901 records** across 11 years.  Includes an exploratory Jupyter notebook
