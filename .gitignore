@@ -1,0 +1,21 @@
+# Data files (too large for GitHub — download from Kaggle / Analyze Boston)
+*.csv
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Jupyter outputs (optional — remove this line to commit executed notebooks)
+# *.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp test plots
+test_plot*.png
